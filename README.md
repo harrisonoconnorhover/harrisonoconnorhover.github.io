@@ -2,6 +2,8 @@
 
 A tiny, dependency-free static website designed for GitHub Pages. It uses one HTML file and one CSS file—no images, JavaScript, build step, or hosting bill.
 
+Live site: <https://harrisonoconnorhover.github.io/>
+
 ## Publish with GitHub Pages
 
 1. Create a GitHub repository. For the default personal URL, name it `YOUR-USERNAME.github.io`.

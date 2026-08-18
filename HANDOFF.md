@@ -6,6 +6,7 @@
 - Added the cost breakdown, free-hosting options, setup explanation, and minimal HTML example from the supplied copy.
 - Kept the page image-free with no JavaScript or build step.
 - Added publishing and local-preview instructions in `README.md`.
+- Created the public repository and published the site at `https://harrisonoconnorhover.github.io/`.
 
 ## Try It
 
@@ -15,6 +16,7 @@
 
 - Verified the workspace started empty before creating the page.
 - Reviewed HTML/CSS structure and responsive rules manually.
+- Verified GitHub Pages status as `built` and the live URL as HTTP 200.
 
 ## Decisions
 
@@ -24,7 +26,7 @@
 ## Remaining
 
 - Replace the placeholder social URLs if they should be clickable.
-- Push the files to a GitHub repository and enable Pages.
+- Connect a custom domain if desired.
 
 ## Review First
 
