@@ -69,14 +69,14 @@ main {
 }
 
 .hero {
-  padding: clamp(5rem, 18vh, 10rem) 0 clamp(6rem, 20vh, 12rem);
+  padding: clamp(2.5rem, 6vh, 5rem) 0 clamp(6rem, 20vh, 12rem);
   border-bottom: 1px solid var(--line);
 }
 
 h1 {
-  max-width: 700px;
+  max-width: 620px;
   margin: 0 0 1rem;
-  font-size: clamp(2.5rem, 7vw, 5rem);
+  font-size: clamp(2.25rem, 5vw, 3.75rem);
   line-height: 1.1;
 }
 
