@@ -3,7 +3,8 @@
 ## Finished
 
 - Simplified the site into a minimal personal landing page.
-- Added the requested role line plus GitHub and LinkedIn links.
+- Added the requested role line and `Senior Partner at Hollis Solutions.`
+- Displayed the full GitHub and LinkedIn URLs on separate lines.
 - Preserved the existing minimalist style and footer.
 - Kept the page image-free with no JavaScript or build step.
 - Published the update at `https://harrisonoconnorhover.github.io/`.
