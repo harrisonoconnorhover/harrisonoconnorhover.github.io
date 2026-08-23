@@ -96,22 +96,6 @@ h1 {
   overflow-wrap: anywhere;
 }
 
-.terminal {
-  overflow-x: auto;
-  max-width: 700px;
-  margin: 4rem 0 0;
-  padding: 1.25rem;
-  border: 1px solid var(--line);
-  background: #f7f7f7;
-  font-family: monospace;
-  font-size: 0.85rem;
-  line-height: 1.7;
-}
-
-.terminal-prompt {
-  color: #900;
-}
-
 .site-footer {
   display: flex;
   justify-content: space-between;
@@ -150,7 +134,4 @@ h1 {
     padding: 5rem 0 6rem;
   }
 
-  .terminal {
-    margin-top: 3rem;
-  }
 }
