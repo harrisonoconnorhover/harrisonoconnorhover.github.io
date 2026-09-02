@@ -37,7 +37,6 @@ a {
 }
 
 .site-header,
-.site-footer,
 main {
   width: min(800px, calc(100% - 2rem));
   margin-inline: auto;
@@ -46,15 +45,11 @@ main {
 .site-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
   padding: 2.5rem 0 1rem;
   border-bottom: 1px solid var(--line);
 }
 
-.wordmark,
-.header-note,
-.site-footer {
+.wordmark {
   font-family: monospace;
 }
 
@@ -62,15 +57,8 @@ main {
   font-weight: bold;
 }
 
-.header-note {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.8rem;
-}
-
 .hero {
   padding: clamp(2.5rem, 6vh, 5rem) 0 clamp(6rem, 20vh, 12rem);
-  border-bottom: 1px solid var(--line);
 }
 
 h1 {
@@ -110,38 +98,14 @@ h1 {
   overflow-wrap: anywhere;
 }
 
-.site-footer {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 1.5rem 0 2rem;
-  color: var(--muted);
-  font-size: 0.8rem;
-}
-
-.site-footer p {
-  margin: 0;
-}
-
 @media (max-width: 600px) {
   .site-header,
-  .site-footer,
   main {
     width: min(100% - 2rem, 800px);
   }
 
-  .site-header,
-  .site-footer {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
   .site-header {
     padding-top: 1.5rem;
-  }
-
-  .header-note {
-    text-align: left;
   }
 
   .hero {
