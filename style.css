@@ -85,6 +85,7 @@ h1 {
   font-size: 1.25rem;
 }
 
+.work-links,
 .social-links {
   display: flex;
   flex-direction: column;
@@ -92,6 +93,19 @@ h1 {
   gap: 0.15rem;
 }
 
+.work-links {
+  margin-bottom: 1.5rem;
+}
+
+.work-links h2 {
+  margin: 0 0 0.35rem;
+  color: var(--muted);
+  font-family: monospace;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+.work-links a,
 .social-links a {
   overflow-wrap: anywhere;
 }
