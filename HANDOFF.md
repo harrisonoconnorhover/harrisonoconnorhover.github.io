@@ -2,34 +2,37 @@
 
 ## Finished
 
-- Simplified the site into a minimal personal landing page.
-- Added the requested role line and `Senior Partner at Hollis Solutions.`
-- Displayed the full GitHub and LinkedIn URLs on separate lines.
-- Preserved the existing minimalist style and footer.
-- Kept the page image-free with no JavaScript or build step.
-- Published the update at `https://harrisonoconnorhover.github.io/`.
+- Preserved the clean first screen and existing project and social links.
+- Added a sticky `Resume ↓` link and a below-the-fold experience section.
+- Added one-time scroll reveals for experience, Dander, skills, and education.
+- Added a public résumé PDF without a phone number, email address, or location.
+- Added stacked mobile layouts and reduced-motion support.
 
 ## Try It
 
 - Visit `https://harrisonoconnorhover.github.io/`.
-- For local preview, run `python3 -m http.server 8000` and visit `http://localhost:8000`.
+- Select `Resume ↓`, then continue scrolling through the entries.
+- Use `Download resume (PDF)` for the one-page printable version.
 
 ## Checks
 
-- Verified the HTML/CSS structure and responsive rules manually.
-- Ran `git diff --check`.
-- Verified the live page after deployment.
+- `node --check script.js` passed.
+- `git diff --check` passed.
+- Browser checks passed at desktop, 390 px, and 320 px widths with no console errors or horizontal overflow.
+- The one-page PDF was rendered and visually inspected.
 
 ## Decisions
 
-- Kept GitHub Pages as the hosting target because the site is static and extremely low traffic.
-- Used the exact GitHub and LinkedIn URLs supplied by the user.
+- Kept the résumé below the first viewport so the landing page remains sparse.
+- Used a restrained 24 px, 760 ms one-time reveal rather than copying the reference motion literally.
+- Kept personal contact details out of the public PDF; the website, GitHub, and LinkedIn remain.
 
 ## Remaining
 
-- Connect a custom domain if desired.
+- None for the requested scope.
 
 ## Review First
 
-- Confirm the social links open the intended profiles.
-- Replace `personal site / v1` if a different header note is preferred.
+- Review the AxisCare and REVGEN wording on the live page.
+- Open the PDF download and confirm the public-contact treatment.
+- Try the reveal on a phone-sized viewport.
