@@ -21,6 +21,8 @@
 - Browser checks passed at desktop, 390 px, and 320 px widths with no console errors or horizontal overflow.
 - The one-page PDF was rendered and visually inspected.
 - Porkbun DNS was verified with all GitHub Pages A/AAAA records and the `www` CNAME; its parking records were removed.
+- GitHub Pages built successfully, approved the apex/`www` certificate, and has HTTPS enforcement enabled.
+- Live checks passed: the apex returns 200, while `www` and the prior GitHub Pages URL redirect to the apex.
 
 ## Decisions
 
@@ -30,10 +32,10 @@
 
 ## Remaining
 
-- Wait for GitHub Pages to finish issuing the custom-domain HTTPS certificate if it is still provisioning.
+- None for the requested scope.
 
 ## Review First
 
 - Open the PDF download and confirm the public-contact treatment.
 - Try the reveal on a phone-sized viewport.
-- Confirm the apex and `www` URLs after DNS and HTTPS propagation completes.
+- Open the apex and `www` URLs once from your usual browser bookmarks.
