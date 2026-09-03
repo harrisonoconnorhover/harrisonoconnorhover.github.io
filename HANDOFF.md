@@ -4,13 +4,13 @@
 
 - Preserved the clean first screen and existing project and social links.
 - Added a sticky `Resume ↓` link and a below-the-fold experience section.
-- Added one-time scroll reveals for experience, Dander, skills, and education.
+- Added one-time scroll reveals for experience, Dander, skills, and education, plus stacked mobile layouts and reduced-motion support.
 - Added a public résumé PDF without a phone number, email address, or location.
-- Added stacked mobile layouts and reduced-motion support.
+- Connected the site to `harrisonoconnorhoover.com` with `www` support.
 
 ## Try It
 
-- Visit `https://harrisonoconnorhover.github.io/`.
+- Visit `https://harrisonoconnorhoover.com/`.
 - Select `Resume ↓`, then continue scrolling through the entries.
 - Use `Download resume (PDF)` for the one-page printable version.
 
@@ -20,19 +20,20 @@
 - `git diff --check` passed.
 - Browser checks passed at desktop, 390 px, and 320 px widths with no console errors or horizontal overflow.
 - The one-page PDF was rendered and visually inspected.
+- Porkbun DNS was verified with all GitHub Pages A/AAAA records and the `www` CNAME; its parking records were removed.
 
 ## Decisions
 
 - Kept the résumé below the first viewport so the landing page remains sparse.
-- Used a restrained 24 px, 760 ms one-time reveal rather than copying the reference motion literally.
 - Kept personal contact details out of the public PDF; the website, GitHub, and LinkedIn remain.
+- Made the apex custom domain canonical, with `www` routed to the same GitHub Pages site.
 
 ## Remaining
 
-- None for the requested scope.
+- Wait for GitHub Pages to finish issuing the custom-domain HTTPS certificate if it is still provisioning.
 
 ## Review First
 
-- Review the AxisCare and REVGEN wording on the live page.
 - Open the PDF download and confirm the public-contact treatment.
 - Try the reveal on a phone-sized viewport.
+- Confirm the apex and `www` URLs after DNS and HTTPS propagation completes.
