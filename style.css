@@ -100,6 +100,51 @@ h1 {
 
 .work-links {
   margin-bottom: 1.5rem;
+  max-width: 620px;
+  gap: 0.85rem;
+}
+
+.work-item p {
+  margin: 0.1rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.work-notes-link {
+  font-size: 0.9rem;
+}
+
+.project-notes {
+  scroll-margin-top: 7rem;
+  padding: 3rem 0 4rem;
+  border-top: 1px solid var(--line);
+}
+
+.project-notes h2 {
+  margin-top: 0;
+  font-size: 1.35rem;
+}
+
+.project-notes article {
+  margin-top: 2.5rem;
+}
+
+.project-notes h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-notes p {
+  max-width: 70ch;
+}
+
+.section-intro,
+.additional-work {
+  color: var(--muted);
+}
+
+.additional-work {
+  margin-top: 3rem;
 }
 
 .work-links h2 {

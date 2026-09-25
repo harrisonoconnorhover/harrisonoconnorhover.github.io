@@ -1,25 +1,37 @@
 # Harrison O'Connor-Hoover — personal site
 
-A tiny, dependency-free static website designed for GitHub Pages. It uses one HTML file and one CSS file—no images, JavaScript, build step, or hosting bill.
+A dependency-free static portfolio at [harrisonoconnorhoover.com](https://harrisonoconnorhoover.com/). GitHub Pages serves `main` from the repository root. HTML and CSS provide the content; a small script reveals resume entries when they enter the viewport and respects reduced-motion preferences.
 
-Live site: <https://harrisonoconnorhover.github.io/>
+The selected work is GTM Control Tower, Pomade, and Hot Potato. Brief workflow notes link to existing demonstrations, source, and dated evidence. Dander remains an additional project. Synthetic examples, historical development-system results, and private hosted access are labeled explicitly.
 
-## Publish with GitHub Pages
-
-1. Create a GitHub repository. For the default personal URL, name it `YOUR-USERNAME.github.io`.
-2. Add `index.html` and `style.css` to the repository's root.
-3. Open the repository's **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**, then select the `main` branch and `/ (root)` folder.
-5. Save. GitHub will publish the site at the repository's Pages URL.
-
-To connect a custom domain later, use the **Custom domain** field on the same Pages settings screen, then add the DNS records requested by GitHub at your domain registrar.
-
-## Local preview
-
-Open `index.html` directly in a browser, or run a local server from this directory:
+## Preview
 
 ```bash
-python3 -m http.server 8000
+python3 -m http.server 4198 --bind 127.0.0.1
 ```
 
-Then visit <http://localhost:8000>.
+Open [localhost:4198](http://127.0.0.1:4198/). Check the project notes, Resume link, and PDF at desktop and phone widths. There is no build step.
+
+## Public resume
+
+The experience and skills in `index.html` follow the approved September 24 GTM Engineering resume. Preserve contribution language, timeframes, and independent-project boundaries when editing.
+
+`assets/Harrison_OConnor-Hoover_Resume.pdf` is a public derivative. It omits phone, email, and location; it is not the private application master. The private DOCX/PDF pair and submitted application copies stay outside this repository.
+
+With Python and ReportLab installed, rebuild the public PDF from the HTML resume section:
+
+```bash
+python3 scripts/build_public_resume.py
+```
+
+Render and inspect the one-page result after editing. Verify the website, GitHub, LinkedIn, and project links and confirm no private contact information was included.
+
+## Publish
+
+Push the reviewed commit to `main`, then check GitHub Pages and the live site:
+
+```bash
+gh api repos/harrisonoconnorhover/harrisonoconnorhover.github.io/pages/builds/latest
+```
+
+Keep `CNAME` and existing DNS unchanged. See [HANDOFF.md](HANDOFF.md) for the latest verification.
