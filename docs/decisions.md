@@ -15,3 +15,7 @@ Pomade's first evidence link now leads to the credential-free edit, rerun and ex
 ## September 27, 2026 — Link the implemented held-record correction workflow
 
 Add the self-hosted three-row correction walkthrough beside the browser cleanup. Its screenshot, duplicate-change case, partial hold and recorded reason make the new workflow inspectable without installation. Keep the link explicitly labeled self-hosted; the static public demonstration and its 64-row results have not changed.
+
+## September 27, 2026 — Link the bounded CRM import comparison
+
+Add one short paragraph linking the self-hosted import comparison. Describe exact email matches, existing CRM record IDs, and create/update/hold decisions. State that coverage uses simulated provider responses and live development-account qualification is pending; the historical Salesforce evidence does not establish live verification of this new path.
