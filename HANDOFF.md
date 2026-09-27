@@ -2,38 +2,31 @@
 
 ## Finished
 
-- Replaced Control Tower's stale pending-read sentence with the September 27, 2026 native-read evidence link.
-- Stated that checks passed on HubSpot and Salesforce development fixtures with zero CRM writes; write execution remains unqualified.
-- Preserved selectable fields, scores as evidence rather than probabilities, and no automatic merge/link/write approval.
-- Preserved the existing workflows, historical evidence, other projects, resume HTML, and public PDF.
-- Published website commit `66310dd` after the native-read report and redacted evidence were published in source `7c0496f`.
+- Linked Control Tower's verified enterprise import walkthrough from the existing comparison paragraph.
+- Replaced the earlier read-only qualification limit with dated native create/update/repeat/rollback evidence for fictional development records.
+- Preserved the score caveat, manual-review boundary, other projects and resume assets.
 
 ## Try It
 
-Open [Project notes](https://harrisonoconnorhoover.com/#project-notes). In Control Tower's **Compare with CRM** paragraph, follow **September 27, 2026 native read checks**.
-
-For a local preview, run `python3 -m http.server 4199 --bind 127.0.0.1` and open `http://127.0.0.1:4199/#project-notes`.
+Open [Project notes](https://harrisonoconnorhoover.com/#project-notes), then **Follow a real development-CRM import**. The walkthrough includes actual screenshots, two CSVs and the native result report.
 
 ## Checks
 
-- HTML IDs are unique; internal anchors and local assets resolve. Only the comparison paragraph differs in HTML; resume HTML and public PDF match the previous commit. The new report URL is exact.
-- JavaScript syntax and diff checks passed. This dependency-free site has no build step.
-- Local Chrome/Playwright checks passed at 1365px and 390px: HTTP 200, no horizontal overflow or page errors, intended report link, score caveat, and write-qualification boundary. Screenshots were visually inspected.
-- [GitHub Pages deployment](https://github.com/harrisonoconnorhover/harrisonoconnorhover.github.io/actions/runs/36344744735) succeeded for `66310dd`. Canonical HTML returned HTTP 200 and matched the reviewed file byte-for-byte. Live desktop/390px link, wording, overflow, and page-error checks passed; screenshots were visually inspected. The native-read report link returned HTTP 200.
-- No runtime checks or native CRM calls were run for this site change. The native evidence comes from the separate implementation task's September 27 read-only checks.
+- The walkthrough passed desktop 1440px and mobile 390px checks: images loaded, downloads worked, no horizontal overflow or browser errors.
+- The local portfolio link points to the exact walkthrough URL and renders without mobile overflow.
+- Focused diff checks passed. This static site has no build step; native CRM qualification and 216 passing tests belong to the separate Control Tower implementation.
 
 ## Decisions
 
-- Edit the existing paragraph instead of adding a feature section.
-- Link the dated development-fixture evidence without claiming measured matching accuracy.
-- Distinguish qualified native reads from unqualified fields and write execution.
+- Update the existing comparison paragraph rather than add another project section.
+- Describe dated development behavior with fictional people and explicit manual review; scores are not probabilities.
 
 ## Remaining
 
-- Nonblank state, additional HubSpot email behavior, and native write execution remain unqualified.
+- Configured duplicate rules can permit sparse records. The linked case demonstrates that limit and a stronger match that was rejected.
+- No production-use or measured matching-accuracy claim is made.
 
 ## Review First
 
-- `index.html`: Control Tower's **Compare with CRM** paragraph.
-- `docs/decisions.md`: native read versus write qualification.
-- The published `docs/import-matching-native-check.md` report.
+- `index.html`: Control Tower's comparison paragraph.
+- The linked enterprise import walkthrough and native evidence report.

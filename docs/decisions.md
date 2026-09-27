@@ -25,3 +25,11 @@ Extend that same paragraph with the read-only approximate match review instead o
 ## September 27, 2026 — Distinguish native read evidence from write qualification
 
 Replace the pending-read qualification sentence with the dated HubSpot and Salesforce development-fixture report. The checks used native reads and stored matching results with zero CRM writes; they do not establish matching accuracy or qualify write execution. Keep nonblank state, HubSpot additional-email behavior, and native writes outside the qualified scope. Retain the score and automatic-action boundaries.
+
+## September 27, 2026 — Link a complete native development import
+
+Replace the earlier read-only status with the verified fictional enterprise
+import walkthrough. Both CRMs completed create/update, repeat-import and update
+rollback checks. Keep approximate matching manual and scores uncalibrated. Link
+the observed native duplicate-rule limits; this is independent development
+evidence rather than customer production work.
