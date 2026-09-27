@@ -18,7 +18,7 @@ Run `python3 -m http.server 4198 --bind 127.0.0.1`. Open `http://127.0.0.1:4198/
 - Desktop and 390px mobile layout, project-note and resume navigation, and no horizontal overflow verified in the browser.
 - HTML IDs/local assets, all eight employment bullets against the approved resume and public PDF, JavaScript syntax, and Git diff checks passed.
 - Existing project/source/benchmark links returned HTTP 200. LinkedIn declined automated access (999); no availability claim is made for it.
-- The September 25 release passed GitHub Pages and exact live-file checks. September 27 paragraph change passed focused HTML/diff checks; publication verification is pending.
+- September 27 source `b8fca2a` passed focused HTML/diff checks. GitHub Pages built that commit successfully; canonical HTML returned HTTP 200 and byte-matched the reviewed file with the updated counts and decision link.
 
 ## Decisions
 
@@ -28,7 +28,7 @@ Run `python3 -m http.server 4198 --bind 127.0.0.1`. Open `http://127.0.0.1:4198/
 
 ## Remaining
 
-- Verify GitHub Pages and canonical HTML for the September 27 paragraph update. Pomade's private hosted app was not redeployed; its starter correction is published in source.
+- No remaining work in this paragraph update. Pomade's private hosted app was not redeployed; its starter correction is published in source.
 
 ## Review First
 
