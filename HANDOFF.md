@@ -29,7 +29,7 @@ For a local preview: `python3 -m http.server 4198 --bind 127.0.0.1`, then open `
 
 ## Remaining
 
-- Publish the reviewed website copy and verify the canonical page.
+- Published source `514b9c5`; canonical HTML returned HTTP 200 and byte-matched the reviewed file. Live browser inspection confirmed both revised examples.
 - Private hosted apps and live provider workflows are unchanged.
 
 ## Review First
