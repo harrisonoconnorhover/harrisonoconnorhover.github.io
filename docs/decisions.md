@@ -21,3 +21,7 @@ Add the self-hosted three-row correction walkthrough beside the browser cleanup.
 Add one short paragraph linking the self-hosted import comparison. Describe exact email matches, existing CRM record IDs, and create/update/hold decisions. State that coverage uses simulated provider responses and live development-account qualification is pending; the historical Salesforce evidence does not establish live verification of this new path.
 
 Extend that same paragraph with the read-only approximate match review instead of adding another feature section. Suggested fields remain selectable, 0–100 scores rank evidence rather than estimate probability, and suggestions never merge or link records or approve writes. Preserve the synthetic/local test and pending native qualification boundaries.
+
+## September 27, 2026 — Distinguish native read evidence from write qualification
+
+Replace the pending-read qualification sentence with the dated HubSpot and Salesforce development-fixture report. The checks used native reads and stored matching results with zero CRM writes; they do not establish matching accuracy or qualify write execution. Keep nonblank state, HubSpot additional-email behavior, and native writes outside the qualified scope. Retain the score and automatic-action boundaries.

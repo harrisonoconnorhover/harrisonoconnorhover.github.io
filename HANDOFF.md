@@ -2,38 +2,35 @@
 
 ## Finished
 
-- Updated Control Tower's existing comparison paragraph with a link to its read-only approximate match review.
-- Described selectable suggested fields and evidence-based 0–100 scores, not probabilities. Suggestions do not merge or link records or approve writes.
-- Retained the exact-email comparison link and synthetic/local testing and pending live development-account qualification boundaries.
+- Replaced Control Tower's stale pending-read sentence with the September 27, 2026 native-read evidence link.
+- Stated that checks passed on HubSpot and Salesforce development fixtures with zero CRM writes; write execution remains unqualified.
+- Preserved selectable fields, scores as evidence rather than probabilities, and no automatic merge/link/write approval.
 - Preserved the existing workflows, historical evidence, other projects, resume HTML, and public PDF.
-- Published website commit `ef46539` after source feature `01dae32` and its approximate-match guide became public.
 
 ## Try It
 
-Open [Project notes](https://harrisonoconnorhoover.com/#project-notes). Under Control Tower's **Compare with CRM** paragraph, follow **read-only approximate match review**.
-
-For a local preview, run `python3 -m http.server 4199 --bind 127.0.0.1` and open `http://127.0.0.1:4199/#project-notes`.
+Run `python3 -m http.server 4199 --bind 127.0.0.1` and open `http://127.0.0.1:4199/#project-notes`. In Control Tower's **Compare with CRM** paragraph, find **September 27, 2026 native read checks**.
 
 ## Checks
 
-- HTML IDs are unique; internal anchors and local assets resolve. Only the existing comparison paragraph differs in HTML; resume HTML and public PDF match the previous committed version. The new guide URL is exact.
+- HTML IDs are unique; internal anchors and local assets resolve. Only the comparison paragraph differs in HTML; resume HTML and public PDF match the previous commit. The new report URL is exact.
 - JavaScript syntax and diff checks passed. This dependency-free site has no build step.
-- Local Chrome/Playwright checks passed at 1365px and 390px: HTTP 200, no horizontal overflow or page errors, intended link URL, score caveat, and qualification text. Both screenshots were visually inspected.
-- [GitHub Pages deployment](https://github.com/harrisonoconnorhover/harrisonoconnorhover.github.io/actions/runs/36343421053) succeeded for `ef46539`. Canonical HTML returned HTTP 200 and matched the reviewed file byte-for-byte. Live desktop/390px checks passed with no page errors or horizontal overflow; screenshots were visually inspected. Both comparison guide links returned HTTP 200.
-- No runtime tests or native CRM calls were run for this site change.
+- Local Chrome/Playwright checks passed at 1365px and 390px: HTTP 200, no horizontal overflow or page errors, intended report link, score caveat, and write-qualification boundary. Screenshots were visually inspected.
+- No runtime checks, native CRM calls, or publication checks were run for this site change. The native evidence comes from the separate implementation task's September 27 read-only checks.
 
 ## Decisions
 
 - Edit the existing paragraph instead of adding a feature section.
-- Keep approximate suggestions separate from exact-email write planning, probabilities, and automatic record changes.
-- Preserve the self-hosted and simulated-verification boundaries.
+- Link the dated development-fixture evidence without claiming measured matching accuracy.
+- Distinguish qualified native reads from unqualified fields and write execution.
 
 ## Remaining
 
-- Live development-account qualification of the new CRM comparison remains pending.
+- Hold public push until `docs/import-matching-native-check.md` is confirmed public.
+- Nonblank state, additional HubSpot email behavior, and native write execution remain unqualified.
 
 ## Review First
 
 - `index.html`: Control Tower's **Compare with CRM** paragraph.
-- `docs/decisions.md`: approximate matching and verification boundaries.
-- The published `docs/approximate-import-matches.md` guide.
+- `docs/decisions.md`: native read versus write qualification.
+- The linked `docs/import-matching-native-check.md` report when published.
