@@ -26,7 +26,7 @@ For a local preview, run `python3 -m http.server 4198 --bind 127.0.0.1` and open
 
 ## Remaining
 
-- Website publication and canonical-page verification are pending.
+- Published website change `d39abc1`. GitHub Pages reports built; canonical HTML returned HTTP 200 and matched reviewed bytes. Live desktop/390px browser checks confirmed the new link, with no page errors or horizontal overflow.
 - No private application deployment or provider requalification is included.
 
 ## Review First
