@@ -60,16 +60,16 @@
         <article>
           <h3>Pomade: turn account data into inspectable research</h3>
           <p>Research results need context before they become sales inputs. Pomade combines a data grid, reusable recipes, source-linked answers, and deliberate export or CRM actions.</p>
-          <p><strong>Inspect it:</strong> the <a href="https://github.com/harrisonoconnorhover/pomade/blob/main/docs/live-benchmark-2026-09-07.md">September 7 provider benchmark</a> records 12 provider-accepted work emails from 15 test contacts, including three additional results from fallback. It also records development-CRM read-back and an unchanged repeat preview. These are results for that sample, not a general accuracy or coverage claim.</p>
-          <p><strong>Design decision:</strong> keep raw responses, sources, and uncertainty available for review. Successful execution and a citation do not establish that a claim is correct. Hosted access remains private; provider workflows require configured accounts.</p>
-          <p><a href="https://github.com/harrisonoconnorhover/pomade/blob/main/docs/portfolio-workflow.md">Reproduce the credential-free starter workflow</a> · <a href="https://github.com/harrisonoconnorhover/pomade#readme">Source and current limits</a></p>
+          <p><strong>Try it locally:</strong> follow the <a href="https://github.com/harrisonoconnorhover/pomade/blob/main/docs/portfolio-workflow.md">credential-free, three-row workflow</a>. Nine formula actions produce two passing rows and one that needs review. Clear a person's name and rerun: the failed formulas keep that row in Review. Edit a checked input and export before rerunning: its status is Draft, even while earlier outputs remain visible.</p>
+          <p><strong>Design decision:</strong> an old result must not look freshly checked after its input changes. Keep raw responses, sources, and uncertainty available for review; successful execution and a citation do not establish factual accuracy. This local example uses synthetic records and no external writes. Hosted access remains private.</p>
+          <p><a href="https://github.com/harrisonoconnorhover/pomade/blob/main/docs/live-benchmark-2026-09-07.md">Separate September 7 provider benchmark and its limits</a> · <a href="https://github.com/harrisonoconnorhover/pomade#readme">Source and current limits</a></p>
         </article>
 
         <article>
           <h3>Hot Potato: explain who receives an inbound lead</h3>
           <p>Routing should account for an eligible existing owner, rep availability, and assignment weights. The engine makes those rules inspectable and reuses the decision for a repeated request ID.</p>
-          <p><strong>Inspect it:</strong> the <a href="https://hot-potato-32c.pages.dev/#how">routing walkthrough</a> links to the public implementation and tests for owner preference, weighted assignment, and an unavailable pool.</p>
-          <p><strong>Design decision:</strong> show the assignment and its limits. The website plays preset fictional results; it does not check a calendar or book a meeting. Historical rule snapshots are not implemented.</p>
+          <p><strong>Inspect it:</strong> the <a href="https://hot-potato-32c.pages.dev/#how">routing and retry walkthrough</a> links to source and passing checks. Follow the failure case: an older owner update fails, a newer assignment succeeds, and the old retry is skipped. PostgreSQL checks also verify that concurrent owner writes finish in order, using synthetic provider callbacks.</p>
+          <p><strong>Design decision:</strong> a delayed retry must not undo a newer queued assignment. The guard orders this application's writes; it does not detect independent edits inside the CRM. The website animation plays preset fictional results without calendar checks or bookings. Historical rule snapshots are not implemented.</p>
           <p><a href="https://github.com/harrisonoconnorhover/hot-potato#readme">Public application and setup</a></p>
         </article>
 

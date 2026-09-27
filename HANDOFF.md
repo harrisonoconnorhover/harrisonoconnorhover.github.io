@@ -2,36 +2,38 @@
 
 ## Finished
 
-- Added concise descriptions for Control Tower, Pomade, and Hot Potato; retained Dander as additional work.
-- Added workflow notes with inspectable code and dated results, including synthetic/private/development-system boundaries.
-- Aligned employment, skills, and the independent-project section with the approved current main resume.
-- Rebuilt the public one-page PDF without personal contact details; private resume masters are unchanged.
-- September 27 follow-up aligns Control Tower's workflow note with its corrected sample: 57 contacts, 46 ready, 11 held after seven merges. The link opens its runnable record inspector; employment and resume files are unchanged.
+- Pomade's main evidence paragraph now leads with its credential-free three-row workflow, edit/rerun failure case and truthful CSV status.
+- Kept the dated provider benchmark available separately with its limits.
+- Hot Potato's note now explains the obsolete owner-retry failure and links to its verified routing/database checks.
+- Preserved Control Tower's inspected cleanup, the existing visual design, employment wording and public/private resume files.
 
 ## Try It
 
-Run `python3 -m http.server 4198 --bind 127.0.0.1`. Open `http://127.0.0.1:4198/`, follow **Workflow notes and evidence**, then **Resume** and the PDF download.
+Open [Project notes](https://harrisonoconnorhoover.com/#project-notes). Follow Pomade's **credential-free, three-row workflow** and Hot Potato's **routing and retry walkthrough**.
+
+For a local preview: `python3 -m http.server 4198 --bind 127.0.0.1`, then open `http://127.0.0.1:4198/#project-notes`.
 
 ## Checks
 
-- Public PDF: one page, four hyperlinks, current contribution/timeframe wording, no phone/email/location, and rendered-page visual review passed.
-- Desktop and 390px mobile layout, project-note and resume navigation, and no horizontal overflow verified in the browser.
-- HTML IDs/local assets, all eight employment bullets against the approved resume and public PDF, JavaScript syntax, and Git diff checks passed.
-- Existing project/source/benchmark links returned HTTP 200. LinkedIn declined automated access (999); no availability claim is made for it.
-- September 27 source `b8fca2a` passed focused HTML/diff checks. GitHub Pages built that commit successfully; canonical HTML returned HTTP 200 and byte-matched the reviewed file with the updated counts and decision link.
+- Focused HTML checks passed: unique IDs, internal anchors and local assets resolve; the new workflow descriptions are present.
+- Resume HTML and public PDF match the previous committed version exactly. JavaScript syntax and diff checks passed.
+- Browser review passed at desktop and 390px phone width, with no horizontal overflow. The Pomade link opened the public walkthrough while signed out.
+- Independently verified Pomade's exact fresh README commands, without credentials or extra flags: install, development startup, three-row/nine-action run and repeat, two passing rows and one Review row, zero external writes.
+- Previous public PDF/render and application/runtime checks remain recorded in the preceding handoff and project repositories; they were not rerun for this copy change.
 
 ## Decisions
 
-- Preserve the minimal design and expose existing evidence; add no application features.
-- Separate sample results and historical development runs from current production claims.
-- Keep private resume files local; publish only the contact-free derivative.
+- Lead with reproducible behavior and one meaningful failure per project.
+- Preserve synthetic, historical-provider and public-source boundaries.
+- Make no application feature or resume changes in this pass.
 
 ## Remaining
 
-- No remaining work in this paragraph update. Pomade's private hosted app was not redeployed; its starter correction is published in source.
+- Publish the reviewed website copy and verify the canonical page.
+- Private hosted apps and live provider workflows are unchanged.
 
 ## Review First
 
-- `index.html`: project notes and resume wording.
-- `assets/Harrison_OConnor-Hoover_Resume.pdf`: one-page public copy.
-- `docs/decisions.md`: scope and evidence boundaries.
+- `index.html`: Pomade and Hot Potato project notes.
+- Linked Pomade walkthrough and Hot Potato routing/retry case.
+- `docs/decisions.md`: evidence ordering rationale.

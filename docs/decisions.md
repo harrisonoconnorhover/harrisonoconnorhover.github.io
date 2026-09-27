@@ -7,3 +7,7 @@ Keep the minimalist personal site. Introduce each selected project in a sentence
 Project notes describe implemented decisions and exact evidence boundaries. They do not imply an integrated suite, customer adoption, or general performance from small development samples. No new application features are part of this portfolio correction.
 
 The web resume follows the approved main resume's employment wording. Its public PDF is built from the HTML and continues to omit phone, email, and location. Private application masters remain local and unchanged.
+
+## September 27, 2026 — Lead with reproducible failure cases
+
+Pomade's first evidence link now leads to the credential-free edit, rerun and export workflow. Its dated provider benchmark remains available separately. Hot Potato's note explains the verified obsolete-retry failure and the boundary around external CRM edits. Both examples describe already implemented behavior and identify the synthetic environment; the change adds no application features or new production claims.
