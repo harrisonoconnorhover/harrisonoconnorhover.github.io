@@ -6,7 +6,7 @@
 - Added workflow notes with inspectable code and dated results, including synthetic/private/development-system boundaries.
 - Aligned employment, skills, and the independent-project section with the approved current main resume.
 - Rebuilt the public one-page PDF without personal contact details; private resume masters are unchanged.
-- Corrected the README and added a small PDF builder using the HTML resume content. Published site source `fa6113b` through GitHub Pages.
+- September 27 follow-up aligns Control Tower's workflow note with its corrected sample: 57 contacts, 46 ready, 11 held after seven merges. The link opens its runnable record inspector; employment and resume files are unchanged.
 
 ## Try It
 
@@ -18,7 +18,7 @@ Run `python3 -m http.server 4198 --bind 127.0.0.1`. Open `http://127.0.0.1:4198/
 - Desktop and 390px mobile layout, project-note and resume navigation, and no horizontal overflow verified in the browser.
 - HTML IDs/local assets, all eight employment bullets against the approved resume and public PDF, JavaScript syntax, and Git diff checks passed.
 - Existing project/source/benchmark links returned HTTP 200. LinkedIn declined automated access (999); no availability claim is made for it.
-- GitHub Pages built `fa6113b`; canonical live HTML, CSS, and PDF returned HTTP 200 and exactly matched reviewed files. Live browser visual check and the newly published Pomade walkthrough link passed.
+- The September 25 release passed GitHub Pages and exact live-file checks. September 27 paragraph change passed focused HTML/diff checks; publication verification is pending.
 
 ## Decisions
 
@@ -28,7 +28,7 @@ Run `python3 -m http.server 4198 --bind 127.0.0.1`. Open `http://127.0.0.1:4198/
 
 ## Remaining
 
-- No remaining work in this correction phase. Pomade's private hosted app was not redeployed; its starter correction is published in source.
+- Verify GitHub Pages and canonical HTML for the September 27 paragraph update. Pomade's private hosted app was not redeployed; its starter correction is published in source.
 
 ## Review First
 
