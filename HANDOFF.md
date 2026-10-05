@@ -16,6 +16,7 @@ Open [harrisonoconnorhoover.com](https://harrisonoconnorhoover.com/). Scroll sli
 - Resume and evidence anchors, valid PDF response, reduced motion, and JavaScript-disabled rendering passed.
 - Resume and project notes retained verbatim; project URLs and PDF unchanged.
 - JavaScript syntax and `git diff --check` passed. No build step.
+- GitHub Pages built `25610ac`; live desktop and phone checks passed with HTTP 200, working PDF, visible experience, and no browser errors or overflow.
 
 ## Decisions
 
@@ -24,7 +25,7 @@ Open [harrisonoconnorhoover.com](https://harrisonoconnorhoover.com/). Scroll sli
 
 ## Remaining
 
-- Verify GitHub Pages publication and the live desktop and phone layout.
+- None for this layout request.
 
 ## Review First
 
