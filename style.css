@@ -74,8 +74,7 @@ main {
 }
 
 .hero {
-  min-height: calc(100svh - 5.15rem);
-  padding: clamp(2.5rem, 6vh, 5rem) 0 clamp(6rem, 20vh, 12rem);
+  padding: clamp(2rem, 4vh, 3rem) 0 2.5rem;
 }
 
 h1 {
@@ -101,13 +100,6 @@ h1 {
 .work-links {
   margin-bottom: 1.5rem;
   max-width: 620px;
-  gap: 0.85rem;
-}
-
-.work-item p {
-  margin: 0.1rem 0 0;
-  color: var(--muted);
-  font-size: 0.95rem;
 }
 
 .work-notes-link {
@@ -162,7 +154,7 @@ h1 {
 
 .resume {
   scroll-margin-top: 5.5rem;
-  padding: clamp(4.5rem, 10vh, 7rem) 0 clamp(7rem, 18vh, 11rem);
+  padding: 2rem 0 clamp(7rem, 18vh, 11rem);
   border-top: 1px solid var(--line);
 }
 
@@ -171,7 +163,7 @@ h1 {
   align-items: baseline;
   justify-content: space-between;
   gap: 1rem;
-  margin-bottom: clamp(4rem, 10vh, 7rem);
+  margin-bottom: 2rem;
 }
 
 .resume-heading h2 {
@@ -278,8 +270,7 @@ h1 {
   }
 
   .hero {
-    min-height: calc(100svh - 4.15rem);
-    padding: 5rem 0 6rem;
+    padding: 2rem 0 2.5rem;
   }
 
   .resume {
@@ -289,7 +280,6 @@ h1 {
   .resume-heading {
     align-items: flex-start;
     flex-direction: column;
-    margin-bottom: 4.5rem;
   }
 
   .resume-list {

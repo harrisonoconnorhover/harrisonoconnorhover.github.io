@@ -2,31 +2,31 @@
 
 ## Finished
 
-- Updated Control Tower's existing comparison paragraph to describe automatic holds on possible duplicates before creation.
-- Linked the revised illustrated development case, preserving the distinction between original writes and later hold verification.
-- Retained evidence-score caveats and unchanged descriptions of other projects and resume assets.
+- Reduced selected work to three project links and one evidence link.
+- Moved the intact project notes below the resume.
+- Removed full-screen hero sizing, tightened introductory spacing, and made experience entries reveal on first visibility.
 
 ## Try It
 
-Open [Project notes](https://harrisonoconnorhoover.com/#project-notes), then **Follow a real development-CRM import**. Step 02 shows the new hold behavior and candidate evidence.
+Open [harrisonoconnorhoover.com](https://harrisonoconnorhoover.com/). Scroll slightly to see experience; use the evidence link for project details.
 
 ## Checks
 
-- Local portfolio and revised walkthrough passed 1440px and 390px checks without overflow or browser errors; all five walkthrough images loaded.
-- Diff checks passed. This site has no build step.
-- The separate Control Tower implementation passed 228 tests and native held-only checks against HubSpot and Salesforce development accounts.
+- Playwright passed at 1440×900, 1366×768, 390×844, 375×667, and 320×568: first role visible after 120px scrolling, no horizontal overflow or browser errors.
+- Resume and evidence anchors, valid PDF response, reduced motion, and JavaScript-disabled rendering passed.
+- Resume and project notes retained verbatim; project URLs and PDF unchanged.
+- JavaScript syntax and `git diff --check` passed. No build step.
 
 ## Decisions
 
-- Update the existing comparison paragraph without adding another section.
-- Describe possible-duplicate holds and their evidence; do not claim identity certainty or universal duplicate prevention.
+- Put experience immediately after the compact introduction.
+- Keep detailed project evidence accessible after the resume.
 
 ## Remaining
 
-- Snapshot coverage and concurrent CRM changes limit detection; possible matches require human resolution.
-- No production-use or measured matching-accuracy claim is made.
+- Verify GitHub Pages publication and the live desktop and phone layout.
 
 ## Review First
 
-- `index.html`: Control Tower comparison paragraph.
-- The linked walkthrough's Step 02 and native follow-up report.
+- `index.html`: compact selected work and section order.
+- `style.css` and `script.js`: spacing and first-visible experience reveal.

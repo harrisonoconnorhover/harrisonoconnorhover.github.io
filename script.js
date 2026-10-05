@@ -12,8 +12,7 @@ if (!prefersReducedMotion && 'IntersectionObserver' in window) {
       observer.unobserve(entry.target);
     });
   }, {
-    threshold: 0.14,
-    rootMargin: '0px 0px -8% 0px',
+    threshold: 0,
   });
 
   revealEntries.forEach((entry) => observer.observe(entry));

@@ -33,3 +33,12 @@ import walkthrough. Both CRMs completed create/update, repeat-import and update
 rollback checks. Keep approximate matching manual and scores uncalibrated. Link
 the observed native duplicate-rule limits; this is independent development
 evidence rather than customer production work.
+
+## October 5, 2026 — Bring experience into the first scroll
+
+Show selected work as three project links with one link to the detailed evidence.
+Place the unchanged project notes after the resume, and remove the hero's
+viewport-height minimum and oversized section spacing so experience begins near
+the introduction on desktop and phone screens. Reveal experience entries as soon
+as they enter the viewport so long phone entries do not delay the first role.
+Preserve the resume text and PDF.

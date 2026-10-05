@@ -2,7 +2,7 @@
 
 A dependency-free static portfolio at [harrisonoconnorhoover.com](https://harrisonoconnorhoover.com/). GitHub Pages serves `main` from the repository root. HTML and CSS provide the content; a small script reveals resume entries when they enter the viewport and respects reduced-motion preferences.
 
-The selected work is GTM Control Tower, Pomade, and Hot Potato. Brief workflow notes link to existing demonstrations, source, and dated evidence. Dander remains an additional project. Synthetic examples, historical development-system results, and private hosted access are labeled explicitly.
+The selected work is a compact list of links to GTM Control Tower, Pomade, and Hot Potato. Experience follows directly below the introduction; detailed workflow notes, source, and dated evidence follow the resume. Dander remains an additional project. Synthetic examples, historical development-system results, and private hosted access are labeled explicitly.
 
 ## Preview
 
